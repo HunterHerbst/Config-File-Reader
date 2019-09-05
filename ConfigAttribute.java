@@ -1,5 +1,3 @@
-package resources;
-
 import java.util.Hashtable;
 
 /**
