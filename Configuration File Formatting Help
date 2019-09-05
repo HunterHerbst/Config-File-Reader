@@ -1,0 +1,20 @@
+Config files are supposed to be formatted as follows:
+
+"name"
+{
+	S:stringExample=this is a string
+	I:integerExample=123
+	D:doubleExample=3.14
+	B:booleanExample=(1+1==2)
+};
+
+"name 2" ...
+
+
+
+To make a comment, use '#'
+#This is a comment
+
+Comments and blank lines can be placed anywhere. Opening and closing braces ('{' and '};')
+should be given their own lines, to avoid potential errors. Each attribute must be given its
+own line and must be a part of DIBS (Double, Integer, Boolean, String)
